@@ -1,0 +1,42 @@
+{
+  "name": "kaplan-interview-assignment",
+  "version": "1.0.0",
+  "description": "A small RESTful API for an interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahalo1984/kaplan-interview-assignment.git"
+  },
+  "keywords": [
+    "kaplan",
+    "interview",
+    "test",
+    "assignment",
+    "REST",
+    "standard",
+    "docker",
+    "sample",
+    "example"
+  ],
+  "author": "Matthew Scott Conroy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahalo1984/kaplan-interview-assignment/issues"
+  },
+  "homepage": "https://github.com/mahalo1984/kaplan-interview-assignment#readme",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-body": "^4.0.4",
+    "koa-cors": "0.0.16",
+    "koa-json": "^2.0.2",
+    "koa-mysql": "^1.0.3",
+    "koa-router": "^7.4.0",
+    "koa-send": "^5.0.0",
+    "koa-static": "^5.0.0",
+    "mysql": "^2.15.0",
+    "promise-mysql": "^3.3.1"
+  }
+}

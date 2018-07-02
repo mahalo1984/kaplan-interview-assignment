@@ -1,0 +1,13 @@
+DELIMITER //
+
+CREATE PROCEDURE get_tag_by_id(tagId BIGINT(20))
+
+BEGIN
+
+SELECT * FROM tags WHERE id = tagId;
+
+END
+
+//
+
+DELIMITER ;
